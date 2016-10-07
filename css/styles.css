@@ -18,6 +18,11 @@ body {
   margin-right: 10px;
 }
 
+.saladBowl img {
+  max-width: 60%;
+  max-height: 60%;
+}
+
 .gitHubLink {
   padding: 1px;
   font-size: 17px;
