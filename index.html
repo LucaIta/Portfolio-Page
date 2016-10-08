@@ -6,6 +6,21 @@
     <link rel="stylesheet" href="css/styles.css" type="text/css">
   </head>
   <body>
+
+    <!-- <nav class="navbar navbar-inverse navbar-fixed-top"> // http://www.w3schools.com/bootstrap/bootstrap_navbar.asp
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">WebSiteName</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Page 1</a></li>
+          <li><a href="#">Page 2</a></li>
+          <li><a href="#">Page 3</a></li>
+        </ul>
+      </div>
+    </nav> -->
+
     <div class="container">
       <h1>Luca's Portfolio Page</h1>
 
@@ -13,9 +28,9 @@
 
       <h2>In Development Project</h2>
       <div class="row newsSite box">
-        <h2>News publishing site</h2>
+        <h2>News Publishing Site</h2>
         <h3>Description</h3>
-        <p>This is a personal project developed solely by me. It's a site which allows multiple authors to publish articles on a public portal.</p>
+        <p>This is a personal solo project I'm currently working on. It's a site which allows multiple authors to publish articles on a public portal.</p>
         <div class="row">
           <div class="col-md-4">
             <h3>Used Technologies</h3>
@@ -24,7 +39,7 @@
               <li>Java</li>
               <li>Gradle</li>
               <li>PostgreSQL</li>
-              <li>Velocity template engine</li>
+              <li>Velocity Template Engine</li>
               <li>Bootstrap</li>
             </ul>
           </div>
@@ -178,9 +193,9 @@
       <!-- GitUserDisplayer Section -->
 
       <div class="row GitUserDisplayer box">
-        <h2>GitUserDisplayer</h2>
+        <h2>Git User Displayer</h2>
         <h3>Description</h3>
-        <p>This is a personal project developed solely by me during Epicodus JavaScript class. The goal was to demonstrate to be able to retrieve data from an API. It's a site which allows to search for a user in GitHub and retrieves information about him and his repositories.</p>
+        <p>This is a solo project I developed during Epicodus JavaScript class. The goal was to demonstrate to be able to retrieve data from an API. It's a site which allows to search for a user in GitHub and retrieves information about him and his repositories.</p>
         <div class="row">
           <div class="col-md-4">
             <h3>Used Technologies</h3>
@@ -196,7 +211,7 @@
           <div class="col-md-8">
             <h3>Features</h3>
             <ul>
-              <li>GitHub API - The page makes API calls to retrieve information about the user</li>
+              <li>GitHub API - The page makes API calls to retrieve information about the user and its repositories</li>
             </ul>
           </div>
         </div>
@@ -205,6 +220,46 @@
             <button type="button" class="btn btn-default">Try it</button>
           </a>
           <a href="https://github.com/LucaIta/GitUserDisplayer" target="_blank">
+            <button type="button" class="btn btn-default">Check out the code on GitHub</button>
+          </a>
+        </div>
+      </div>
+
+
+      <!-- Band Tracker Section -->
+
+      <div class="row BandTracker box">
+        <h2>Band Tracker</h2>
+        <h3>Description</h3>
+        <p>This is a solo project I developed during Epicodus Java class. It allows to create Bands and Venues and keep track of which band played in each venue.</p>
+        <div class="row">
+          <div class="col-md-4">
+            <h3>Used Technologies</h3>
+            <ul>
+              <li>Java</li>
+              <li>Velocity Template Engine</li>
+              <li>Spark Framework</li>
+              <li>Postgres</li>
+              <li>JUnit</li>
+              <li>FluentLenium</li>
+              <li>Bootstrap</li>
+            </ul>
+          </div>
+          <div class="col-md-8">
+            <h3>Features</h3>
+            <ul>
+              <li>Band and Venues creation - It allows to create band and venues and specify the number of components for the bands and the room capacity for the venues</li>
+              <li>Venue Room Capacity Check - Before registering a band in the list of those which played in the venue, it checks wheter that venue can host a band of size</li>
+              <li>Data persistence - Band and Venues are stored in a PostgreSQL Database</li>
+              <li>Heroku Hosting - The web page and the PSQL database are hosted on Heroku</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row bottomRow">
+          <a href="http://obscure-savannah-43254.herokuapp.com/" target="_blank">
+            <button type="button" class="btn btn-default">Try it</button>
+          </a>
+          <a href="https://github.com/LucaIta/band_tracker" target="_blank">
             <button type="button" class="btn btn-default">Check out the code on GitHub</button>
           </a>
         </div>
