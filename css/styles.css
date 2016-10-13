@@ -31,6 +31,18 @@ body {
 }
 
 .bottomRow {
-  /*float:left;*/
   margin-left: 0px;
+}
+
+#TopPageLinksDiv {
+  margin-top: 20px;
+}
+
+#TopPageLinksDiv .btn {
+  height: 50px;
+  width: 60%;
+}
+
+#TopPageLinksDiv img {
+  max-height: 100%;
 }
